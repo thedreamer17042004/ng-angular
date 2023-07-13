@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="vendor/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/angular-material.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/font-awsome-pro/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body ng-app="myApp" ng-controller="MyController">
+
+	<!-- controller là gì là cái trình điều khiển logic của ứng dụng sử dụng ng-controller để gắn vào html  -->
+	<!-- ng-click là hàm để chỉ đến sự kiện click the mouse  khi click vào thì thg gọi đến hàm in controller hàm nó phải có scope-->
+	<h1>{{a1}}</h1>
+
+	<input type="text" name="" class="form-control" ng-model="a1">
+ 	
+
+ 	 <button class="btn btn-danger" ng-click="a3()">Gọi hàm a3</button>
+
+
+ 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="vendor/bootstrap.min.js"></script>
+	<script src="vendor/angular.js"></script>
+	<script src="vendor/angular-animate.min.js"></script>
+	<script src="vendor/angular-aria.min.js"></script>
+	<script src="vendor/angular-messages.min.js"></script>
+	<script src="vendor/angular-material.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
+

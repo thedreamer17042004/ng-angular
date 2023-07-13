@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.mottin{
+	border-bottom: 1px solid gray(, 1.0});
+	padding: 10px 0;
+}
+.luoi .mottin{
+	width: 30%;
+	margin-right: 2%;
+	float: left;
+	height: 300px;
+	
+}

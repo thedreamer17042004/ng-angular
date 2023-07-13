@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="vendor/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/angular-material.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/font-awsome-pro/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body ng-app="myApp" ng-controller="MyController" ng-init="xxx='true'"><!--ban đầu có luôn một giá trị ko cần quan ng-model-->
+
+	<h2 class="text-center display-4"> {{giatri}} </h2>
+	
+	<hr>
+
+	<div class="container">
+		<div class="jumbotron">
+			<h1 class="display-3" ng-show="{{xxx}}"></h1><!--true ẩn false hiển thị-->
+			<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+			<hr class="m-y-md">
+			<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+			<p class="lead">
+				<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+			</p>
+		</div>
+	</div>
+ 	
+ 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="vendor/bootstrap.min.js"></script>
+	<script src="vendor/angular.js"></script>
+	<script src="vendor/angular-animate.min.js"></script>
+	<script src="vendor/angular-aria.min.js"></script>
+	<script src="vendor/angular-messages.min.js"></script>
+	<script src="vendor/angular-material.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
+
